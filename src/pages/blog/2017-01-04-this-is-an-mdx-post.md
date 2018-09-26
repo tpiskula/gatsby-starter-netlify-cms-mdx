@@ -1,9 +1,8 @@
 ---
-templateKey: 'blog-post'
-title: 'This is an mdx post'
+templateKey: blog-post
+title: This is an mdx post
 date: 2017-01-04T15:04:10.000Z
-description: >-
-  We can put react components in markdown, why not
+description: 'We can put react components in markdown, why not'
 tags:
   - MDX
   - React
@@ -22,4 +21,5 @@ and now we are in React
 
 <Echo type="info" text="this is props passed to React" color="pink">
   <p>Here is some content from the MDX side</p>
+  <p>new content from me here</p>
 </Echo>
